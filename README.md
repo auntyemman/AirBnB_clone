@@ -68,3 +68,28 @@ EOF  help  quit
 $
 ```
 All tests should also pass in non-interactive mode: $ echo "python3 -m unittest discover tests" | bash
+
+# Project Contents 📋
+This repository constains the following files:
+
+|File|	Description|
+|:---|:------------|
+|AUTHORS|	Contains info about authors of the project|
+|base_model.py|	Defines BaseModel class (parent class), and methods|
+|user.py|	Defines subclass User|
+|amenity.py|	Defines subclass Amenity|
+|city.py|	Defines subclass City|
+|place.py|	Defines subclass Place|
+|review.py|	Defines subclass Review|
+|state.py|	Defines subclass State|
+|file_storage.py|	Creates new instance of class, serializes and deserializes data|
+|console.py|	creates object, retrieves object from file, does operations on objects, updates attributes of object and destroys object|
+|test_base_model.py|	unittests for base_model|
+|test_user.py|	unittests for user|
+|test_amenity.py| unittests for amenity|
+|test_city.py|	unittests for city|
+|test_place.py|	unittests for place|
+|test_review.py|	unittests for review|
+|test_state.py|	unittests for state|
+|test_file_storage.py|	unittests for file_storage|
+|test_console.py|	unittests for console|
