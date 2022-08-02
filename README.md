@@ -69,7 +69,7 @@ $
 ```
 All tests should also pass in non-interactive mode: $ echo "python3 -m unittest discover tests" | bash
 
-# Project Contents 📋
+# Project Contents
 This repository constains the following files:
 
 |File|	Description|
@@ -100,7 +100,7 @@ Clone the repository and run the console.py
 > $ git clone https://github.com/------/AirBnB_clone.git
 ## Usage 
 |Method|	Description|
-|-----:|------------------:|
+|:-----:|:------------------:|
 |create|	Creates object of given class|
 |show|	Prints the string representation of an instance based on the class name and id|
 |all|	Prints all string representation of all instances based or not on the class name|
