@@ -1,6 +1,8 @@
 #!/usr/bin/pythom3
-"""create a cass model named place form Basement BaseModel"""
+"""Import the class BaseModel from model.base_model
+create a class Place that inherits from the BaseModel"""
 
+from model.base_model import BaseModel
 class Place(BaseModel):
     """create a public class attribute from the class above"""
     
