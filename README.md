@@ -97,7 +97,7 @@ This repository constains the following files:
 # Installation 
 Clone the repository and run the console.py
 
-> $ git clone https://github.com/------/AirBnB_clone.git
+> $ git clone https://github.com/auntyemman/AirBnB_clone.git
 ## Usage 
 |Method|	Description|
 |:-----:|:------------------:|
