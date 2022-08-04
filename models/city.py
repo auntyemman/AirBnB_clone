@@ -5,5 +5,6 @@ that inherits from the BaseModel"""
 
 class City(BaseModel):
     """state the attribute to the class city"""
+    
     state_id = ""
     name = ""
