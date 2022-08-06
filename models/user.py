@@ -1,12 +1,25 @@
 #!/usr/bin/python3
-"""Import the class BaseModel from model.base_model
-create a class Amenity that inherits from the BaseModel"""
+from models.base_model import BaseModel
+""" Defines the Class User """
 
-from model.base_model import BaseModel
+
 class User(BaseModel):
-    """assign the following attributes to the inherited class"""
-    
+    """ User that inherits from BaseModel
+    Attributes:
+        email (str): Public class Attribute for user email
+        password (str): Public class Attribute for user password
+        first_name (str): Public class Attribute for user first name
+        last_name (str): Public class Attribute for user last name
+    """
     email = ""
     password = ""
     first_name = ""
     last_name = ""
+
+    def __init__(self, *args, **kwargs):
+        """Init method for User class
+        Attributes:
+            args (list): The list of arguments
+            kwargs (dict): The dictionary with arguments
+        """
+        super().__init__(*args, **kwargs)
