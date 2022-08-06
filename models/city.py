@@ -1,10 +1,21 @@
 #!/usr/bin/python3
-"""Import the class BaseModel from model.base_model
-create a class City
-that inherits from the BaseModel"""
+from models.base_model import BaseModel
+"""Defines the class City"""
+
 
 class City(BaseModel):
-    """state the attribute to the class city"""
-    
+    """Public Attributes for the class City
+    Attribute:
+        state_id: (Str) - empty string
+        name: (str) - empty string
+    """
     state_id = ""
     name = ""
+
+    def __init__(self, *args, **kwargs):
+        """Init method for User class
+        Attributes:
+            args (list): The list of arguments
+            kwargs (dict): The dictionary with arguments
+        """
+        super().__init__(*args, **kwargs)
