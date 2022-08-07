@@ -1,19 +1,12 @@
 #!/usr/bin/python3
-"""Defines the Class State"""
+"""Module State class."""
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """Public Attribute for the class Amenity
-    Attribute:
-        name: (str) - empty string
+    """Represent a state.
+    Attributes:
+        name (str): The name of the state.
     """
-    name = ""
 
-    def __init__(self, *args, **kwargs):
-        """Init method for User class
-        Attributes:
-            args (list): The list of arguments
-            kwargs (dict): The dictionary with arguments
-        """
-        super().__init__(*args, **kwargs)
+    name = ""
