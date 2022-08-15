@@ -73,3 +73,32 @@ button:hover {
 .amenities:hover div.popover {
     display: block; 
 }
+
+/*-----------task 7 (places section)---------*/
+.places {
+    align-items: left;
+    font-size: 30px;
+}
+.content {
+    width: 390px;
+    padding: 2.5px 2.5px 2.5px 2.5px;
+    margin: 2.5px 2.5px 2.5px 2.5px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    display: inline-block;
+
+}
+.centre {
+    width: 390px;
+    padding: 2.5px 2.5px 2.5px 2.5px;
+    margin: 2.5px 2.5px 2.5px 2.5px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    left: 20%;
+}
+.places article h2{
+    font-size: 30px;
+    text-align: center;
+}

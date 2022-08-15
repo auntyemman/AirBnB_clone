@@ -10,8 +10,8 @@ body {
     max-width: 1000px;
     margin-top: 30px;
     margin-bottom: 30px;
-    display: flex;
     position: relative;
     left: 20em;
     justify-content: center;
+    display: block;
 }
