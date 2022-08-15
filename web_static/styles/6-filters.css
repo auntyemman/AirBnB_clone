@@ -15,6 +15,7 @@
     width: 25%;
     border-right: solid 1px #DDDDDD;
     padding-left: 1em;
+    cursor: pointer;
 }
 .locations h3 {
     font-weight: 600;
@@ -26,6 +27,7 @@
 .amenities {
     height: 100%;
     width: 25%;
+    cursor: pointer;
 }
 .amenities h3 {
     font-weight: 600;
@@ -46,7 +48,25 @@ button  {
     align-items: center;
     border-right: 30px;
     margin: .6em .8em 0 .5em;
+    cursor: pointer;
 }
 button:hover {
     opacity: 90%;
+}
+
+/*----------task 6 (search drop down)---------*/
+.popover {
+    background-color: #FAFAFA;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: none;
+}
+.popover ul {
+    list-style: none;
+}
+
+/*-------------hover drop down----------------*/
+button:hover + .popover {
+    display: block;
 }
