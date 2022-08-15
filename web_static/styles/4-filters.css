@@ -4,14 +4,10 @@
     width: 100%;
     border: solid 1px #DDDDDD;
     border-radius: 4px;
-    text-align: center;
-    padding-top: 2.5em;
-}
-.filters input {
-    width: 50vw;
-    height: 5vh;
-    border: none;
-    outline: 0;
+    text-align: right;
+    padding-top: 1em;
+    padding-right: .5em;
+
 
 }
 button  {
