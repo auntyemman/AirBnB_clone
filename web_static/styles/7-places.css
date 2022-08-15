@@ -91,7 +91,7 @@ button:hover {
 .centre {
     width: 390px;
     padding: 2.5px 2.5px 2.5px 2.5px;
-    margin: 2.5px 2.5px 2.5px 2.5px;
+    margin: 10px 2.5px 2.5px 2.5px;
     border: 1px solid #FF5A5F;
     border-radius: 4px;
     display: inline-block;
