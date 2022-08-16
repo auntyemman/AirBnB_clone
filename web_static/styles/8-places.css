@@ -87,6 +87,7 @@ button:hover {
     border-radius: 4px;
     display: inline-block;
     position: relative;
+    height: 300px;
 
 }
 .centre {
@@ -154,4 +155,13 @@ button:hover {
     font-size: 15px;
     margin-top: 45px;
     padding: 1px;
+}
+
+ .content .user {
+    margin: auto;
+    font-size: 15px;
+    display: block;
+}
+.description {
+    height: 100px;
 }
