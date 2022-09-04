@@ -1,0 +1,75 @@
+.filters {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border: solid 1px #DDDDDD;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    
+}
+
+.locations {
+    height: 100%;
+    width: 25%;
+    border-right: solid 1px #DDDDDD;
+    padding-left: 1em;
+    cursor: pointer;
+}
+.locations h3 {
+    font-weight: 600;
+}
+.locations h4  {
+    font-weight: 400;
+    font-size: 14px;
+}
+.amenities {
+    height: 100%;
+    width: 25%;
+    cursor: pointer;
+}
+.amenities h3 {
+    font-weight: 600;
+}
+.amenities h4  {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+button  {
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    align-items: center;
+    border-right: 30px;
+    margin: .6em .8em 0 .5em;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 90%;
+}
+
+/*----------task 6 (search drop down)---------*/
+.popover {
+    background-color: #FAFAFA;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: none;
+}
+.popover ul {
+    list-style: none;
+}
+
+/*-------------hover drop down----------------*/
+.locations:hover div.popover {
+    display: block; 
+}
+.amenities:hover div.popover {
+    display: block; 
+}
